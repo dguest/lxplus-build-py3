@@ -16,6 +16,6 @@ fi
 
 # build
 cd ${SOURCE_DIR}
-./configure --prefix=${HOME}/public/${SOURCE_DIR} --with-openssl=/usr/include/openssl/
+./configure --prefix=${HOME}/public/${SOURCE_DIR} --with-openssl=/cvmfs/cms.cern.ch/slc6_amd64_gcc620/external/openssl/1.0.2d
 make -j 4
 make install
