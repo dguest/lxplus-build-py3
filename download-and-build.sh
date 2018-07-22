@@ -16,6 +16,6 @@ fi
 
 # build
 cd ${SOURCE_DIR}
-./configure --prefix=${HOME}/public/${SOURCE_DIR}
+./configure --prefix=${HOME}/public/${SOURCE_DIR} --with-openssl=/usr/include/openssl/
 make -j 4
 make install
